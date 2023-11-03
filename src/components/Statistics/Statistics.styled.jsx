@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { getRandomHexColor } from 'helper/getRandomHexColor';
 
 export const StatisticsCard = styled.section`
   display: flex;
