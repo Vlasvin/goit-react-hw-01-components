@@ -8,7 +8,7 @@ export const FriendList = ({ friends }) => {
       {friends.map(i => (
         <FriendListItem
           key={i.id}
-          isOnline={i.isOnline}
+          $isOnline={i.isOnline}
           avatar={i.avatar}
           className={i.name}
         />
