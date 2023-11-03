@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+// import React, { Component } from 'react';
 import { Item, Status, Avatar, Name } from './FriendListItem.styled';
 
 export const FriendListItem = ({ $isOnline, avatar, className }) => {

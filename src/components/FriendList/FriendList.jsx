@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+// import React, { Component } from 'react';
 import { FriendsList } from './FriendList.styled';
 import { FriendListItem } from 'components/FriendListItem/FriendListItem';
 
