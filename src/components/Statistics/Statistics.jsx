@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 import { getRandomHexColor } from 'helper/getRandomHexColor';
 import {
   StatisticsCard,
@@ -26,15 +25,4 @@ export const Statistics = ({ title, stats }) => {
       </StatList>
     </StatisticsCard>
   );
-};
-
-Statistics.propTypes = {
-  title: PropTypes.string,
-  stats: PropTypes.arrayOf(
-    PropTypes.shape({
-      id: PropTypes.string.isRequired,
-      label: PropTypes.string.isRequired,
-      percentage: PropTypes.number.isRequired,
-    })
-  ),
 };

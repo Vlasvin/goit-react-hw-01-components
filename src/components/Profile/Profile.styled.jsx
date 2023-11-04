@@ -9,7 +9,6 @@ export const ProfileCard = styled.div`
   width: 370px;
   max-width: 100%;
   margin: 0 auto;
-
   background-color: #eceaea;
   border-radius: 10px 10px 0 0;
   box-shadow: -1px -1px 1px #fff, 1px 1px 1px #babecc;
@@ -23,7 +22,7 @@ export const Description = styled.div`
 export const Avatar = styled.img`
   margin-top: 20px;
   width: 200px;
-  hight: 200px;
+  height: 200px;
   border-radius: 50%;
   background-color: #c6cfd5;
   padding-top: 5px;

@@ -3,13 +3,13 @@ import styled from 'styled-components';
 export const StatisticsCard = styled.section`
   display: flex;
   flex-direction: column;
-  //   gap: 10px;
   align-items: center;
   justify-content: center;
   width: 360px;
   max-width: 100%;
   margin: 0 auto;
-  border-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   box-shadow: -1px -1px 1px #fff, 1px 1px 1px #babecc;
   background-color: #eceaea;
 `;

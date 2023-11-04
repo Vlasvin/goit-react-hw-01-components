@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 import {
   ProfileCard,
   Description,
@@ -37,14 +36,4 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
       </StatsList>
     </ProfileCard>
   );
-};
-
-Profile.propTypes = {
-  username: PropTypes.string,
-  tag: PropTypes.string,
-  location: PropTypes.string,
-  avatar: PropTypes.string,
-  followers: PropTypes.string,
-  views: PropTypes.string,
-  likes: PropTypes.string,
 };
